@@ -244,6 +244,11 @@ textarea {
   .social-icons p i {
     font-size: 1.3125em;
   }
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -330,13 +335,14 @@ textarea {
     flex-flow: row wrap;
   }
   
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+  
   .features p {
     text-align: center;
     margin: 0;
-  }
-  .features i {
-    font-size: 3.75em;
-      margin-bottom: 40px;
   }
   
   /* Reviews */
@@ -357,7 +363,6 @@ textarea {
     width: 55%;
     margin: 20px 0;
   }
-
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -615,10 +620,19 @@ textarea {
     justify-content: space-between;
   }
 
+  .reviews h2 {
+    width: 85%;
+  }
+
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
 
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
   /* Footer */
   footer .content-wrapper {
     width: 65%;
