@@ -387,6 +387,7 @@ textarea {
   left: 0; 
 }
 
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -623,6 +624,10 @@ textarea {
   align-items: flex-start;
 }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
+
 /* FAQ */
 .faq .content-wrapper {
   justify-content: space-between;
@@ -679,6 +684,9 @@ textarea {
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+  }
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   /* 
