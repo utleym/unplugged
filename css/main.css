@@ -238,6 +238,10 @@ textarea {
   footer .copyright {
     margin: 20px 0;
   }
+
+  .social-icons i {
+    font-size: 1.3125em;
+  }
   
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -327,6 +331,10 @@ textarea {
   .features p {
     text-align: center;
     margin: 0;
+  }
+  .features i {
+    font-size: 3.75em;
+      margin-bottom: 40px;
   }
   
   /* Reviews */
@@ -570,10 +578,7 @@ textarea {
   .features .features-item-description {
     width: 50%;
   }
-  .features i {
-    font-size: 3.75em;
-      margin-bottom: 40px;
-  }
+  
 
   /* Reviews */
   .reviews article {
